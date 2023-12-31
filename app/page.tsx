@@ -92,7 +92,7 @@ export default function Home() {
       <main
         className={
           getClassList
-            ? "font-poppins bg-yellow-50  min-h-screen px-10 md:px-20 lg:px-40"
+            ? "font-poppins bg-yellow-50 text-black  min-h-screen px-10 md:px-20 lg:px-40"
             : "font-poppins bg-black min-h-screen px-10 md:px-20 lg:px-40  text-white"
         }
       >
