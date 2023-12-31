@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
     "axios": "^1.6.3",
     "framer-motion": "^10.16.16",
     "next": "14.0.4",
