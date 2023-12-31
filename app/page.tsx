@@ -54,8 +54,8 @@ export default function Home() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const sendMail = () => {
-    // e.preventDefault();
+  const sendMail = (e) => {
+    e.preventDefault();
 
     const serviceID = "service_edgksr7";
     const templateId = "template_2yyb12v";
