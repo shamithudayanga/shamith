@@ -18,13 +18,18 @@ import emailjs from "@emailjs/browser";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import desing from "../assets/design.png";
 import code from "../assets/code.png";
-import web1 from "../assets/web1.png";
-import web2 from "../assets/web2.png";
-import web3 from "../assets/web3.png";
-import web4 from "../assets/web4.png";
-import web5 from "../assets/web5.png";
-import web6 from "../assets/web6.png";
-import web7 from "../assets/web7.png";
+
+
+import web1 from "../public/web1.png";
+import web2 from "../public/web2.png";
+import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
+import web5 from "../public/web5.png";
+import web6 from "../public/web6.png";
+import web7 from "../public/web7.png";
+
+
+
 import shamith from "../assets/shamith.jpg";
 import AboutMe from "../assets/abo.jpeg";
 
