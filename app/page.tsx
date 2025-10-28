@@ -13,12 +13,9 @@ import Post from "next/index";
 import emailjs from "@emailjs/browser";
 // email
 
-import { FormControl, Stack, background } from "@chakra-ui/react";
-import { Progress } from "@chakra-ui/react";
 
 // css
 
-import profileImage from "../assets/p2.png";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import desing from "../assets/design.png";
 import code from "../assets/code.png";
