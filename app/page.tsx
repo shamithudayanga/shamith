@@ -20,13 +20,13 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import desing from "../assets/design.png";
 import code from "../assets/code.png";
 import web0 from "../assets/avikans.png";
-import web1 from "../assets/web1.png";
-import web2 from "../assets/web2.png";
-import web3 from "../assets/web3.png";
+import web1 from "../assets/web1.PNG";
+import web2 from "../assets/web2.PNG";
+import web3 from "../assets/web3.PNG";
 import web4 from "../assets/web4.PNG";
 import web5 from "../assets/web5.PNG";
-import web6 from "../assets/web6.png";
-import web7 from "../assets/web7.png";
+import web6 from "../assets/web6.PNG";
+import web7 from "../assets/web7.PNG";
 import shamith from "../assets/shamith_udayanga.png";
 import AboutMe from "../assets/abo.jpeg";
 
