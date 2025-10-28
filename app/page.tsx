@@ -13,24 +13,24 @@ import Post from "next/index";
 import emailjs from "@emailjs/browser";
 // email
 
+import { FormControl, Stack, background } from "@chakra-ui/react";
+import { Progress } from "@chakra-ui/react";
 
 // css
+
+import profileImage from "../assets/p2.png";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import desing from "../assets/design.png";
 import code from "../assets/code.png";
-
-
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
-import web7 from "../public/web7.png";
-
-
-
-import shamith from "../assets/shamith.jpg";
+import web0 from "../assets/avikans.png";
+import web1 from "../assets/web1.png";
+import web2 from "../assets/web2.png";
+import web3 from "../assets/web3.png";
+import web4 from "../assets/web4.png";
+import web5 from "../assets/web5.png";
+import web6 from "../assets/web6.png";
+import web7 from "../assets/web7.png";
+import shamith from "../assets/shamith_udayanga.png";
 import AboutMe from "../assets/abo.jpeg";
 
 // typeWrite
@@ -97,7 +97,7 @@ export default function Home() {
       <main
         className={
           getClassList
-            ? "font-poppins bg-yellow-50 text-black  min-h-screen px-10 md:px-20 lg:px-40"
+            ? "font-poppins bg-yellow-50  min-h-screen px-10 md:px-20 lg:px-40"
             : "font-poppins bg-black min-h-screen px-10 md:px-20 lg:px-40  text-white"
         }
       >
@@ -191,7 +191,7 @@ export default function Home() {
           transition={{ duration: 0.5 }}
         >
           <div className="flex justify-center items-center mb-2 mt-8">
-            <Image src={shamith} alt="" className="rounded rounded-full" />
+            <Image src={shamith} width={350} alt="" className="rounded rounded-full" />
           </div>
         </motion.div>
 
@@ -312,7 +312,23 @@ export default function Home() {
           {/* image */}
 
           <div className="flex flex-col gap-10 p-10 lg:flex-row lg:flex-wrap">
-            
+
+            <div className="basis-1/3 flex-1 imgs" >
+              <a href="https://avikans.synology.me:3000">
+                <Image
+                    src={web0}
+                    alt="web0"
+                    layout="responsive"
+                    className="rounded-lg object-cover "
+                />
+              </a>
+
+              <div className="mt-2 mb-2 project">
+                <h4 className="text-center ">avikans.synology.me:3000</h4>
+                <p className="mt-2 font-poppins text-sm">ERP System that allows users to input, edit, and manage data efficiently. The front-end is built with Next.js and the back-end is developed using Spring Boot. It is hosted on a Synology server and designed as a secure, business-oriented data management system.</p>
+              </div>
+            </div>
+
             <div className="basis-1/3 flex-1 imgs" >
               <a href="https://qualitycables.com.au">
                 <Image
