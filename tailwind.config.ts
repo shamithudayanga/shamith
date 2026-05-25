@@ -13,7 +13,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        poppins:['poppins','sans-serif']
+        poppins:['poppins','sans-serif'],
+        space:['var(--font-space-grotesk)','sans-serif'],
+        outfit:['var(--font-outfit)','sans-serif'],
       }
     },
 

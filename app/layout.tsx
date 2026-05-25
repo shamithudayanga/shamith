@@ -1,12 +1,20 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Space_Grotesk, Outfit } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const spaceGrotesk = Space_Grotesk({ 
+  subsets: ['latin'],
+  variable: '--font-space-grotesk',
+})
+
+const outfit = Outfit({ 
+  subsets: ['latin'],
+  variable: '--font-outfit',
+})
 
 export const metadata: Metadata = {
-  title: 'Shamith Udayanga',
-  description: 'my Profile',
+  title: 'Shamith Udayanga | Portfolio',
+  description: 'Full Stack Software Developer & Ethical Hacker Portfolio',
 }
 
 export default function RootLayout({
@@ -15,8 +23,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${outfit.variable} ${spaceGrotesk.variable} font-outfit antialiased`}>
+        {children}
+      </body>
     </html>
   )
 }
